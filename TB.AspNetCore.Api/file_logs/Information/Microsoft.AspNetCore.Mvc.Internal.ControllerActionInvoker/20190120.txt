@@ -1,0 +1,44 @@
+#################### 01/20/2019 22:52:09.5759238 ###############
+Message:    Route matched with {action = "Get", controller = "Values"}. Executing action TB.AspNetCore.Api.Controllers.ValuesController.Get (TB.AspNetCore.Api)
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+#################### 01/20/2019 22:52:09.6029744 ###############
+Message:    Executing action method TB.AspNetCore.Api.Controllers.ValuesController.Get (TB.AspNetCore.Api) - Validation state: Valid
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 01/20/2019 22:52:22.0172613 ###############
+Message:    Executed action method TB.AspNetCore.Api.Controllers.ValuesController.Get (TB.AspNetCore.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12396.8114ms.
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 01/20/2019 22:52:22.1695930 ###############
+Message:    Executed action TB.AspNetCore.Api.Controllers.ValuesController.Get (TB.AspNetCore.Api) in 12581.7784ms
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)

@@ -1,0 +1,11 @@
+#################### 01/20/2019 22:52:22.0327641 ###############
+Message:    Executing ObjectResult, writing value of type 'System.String[]'.
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ObjectResultExecuting(ILogger logger, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)

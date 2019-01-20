@@ -1,0 +1,11 @@
+#################### 01/20/2019 22:52:17.1666528 ###############
+Message:    Critical log记录测试
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at TB.AspNetCore.Api.Controllers.ValuesController.Get()
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()

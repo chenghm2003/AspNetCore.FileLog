@@ -1,0 +1,176 @@
+#################### 01/20/2019 22:52:09.3216713 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/api/values  
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:52:22.1829459 ###############
+Message:    Request finished in 12861.9086ms 200 application/json; charset=utf-8
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:52:22.2156895 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+Path:       http://localhost:5000/favicon.ico
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:52:22.2239404 ###############
+Message:    Request finished in 6.8232ms 404 
+Path:       http://localhost:5000/favicon.ico
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:53:22.2091539 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logweb  
+Path:       http://localhost:5000/_logweb
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:53:22.2393213 ###############
+Message:    Request finished in 30.3022ms 301 
+Path:       http://localhost:5000/_logweb
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:53:22.2456782 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logweb/  
+Path:       http://localhost:5000/_logweb/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:53:22.2606495 ###############
+Message:    Request finished in 13.4916ms 200 text/html; charset=utf-8
+Path:       http://localhost:5000/_logweb/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:31.9352539 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logweb/Critical/  
+Path:       http://localhost:5000/_logweb/Critical/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:31.9408248 ###############
+Message:    Request finished in 5.6127ms 200 text/html; charset=utf-8
+Path:       http://localhost:5000/_logweb/Critical/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:43.0998945 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logweb/Critical/ValuesController/  
+Path:       http://localhost:5000/_logweb/Critical/ValuesController/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:43.1289065 ###############
+Message:    Request finished in 28.9646ms 200 text/html; charset=utf-8
+Path:       http://localhost:5000/_logweb/Critical/ValuesController/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:57.2520859 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_logweb/Critical/ValuesController/20190120.txt  
+Path:       http://localhost:5000/_logweb/Critical/ValuesController/20190120.txt
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 22:54:57.2852912 ###############
+Message:    Request finished in 32.9057ms 200 text/plain; charset=utf-8
+Path:       http://localhost:5000/_logweb/Critical/ValuesController/20190120.txt
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 23:01:42.7301281 ###############
+Message:    Request starting HTTP/1.1 GET http://localhost:5000/_setting  
+Path:       http://localhost:5000/_setting
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestStarting(HttpContext httpContext)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.CreateContext(IFeatureCollection contextFeatures)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 01/20/2019 23:01:42.7793671 ###############
+Message:    Request finished in 56.427ms 200 
+Path:       http://localhost:5000/_setting
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Hosting.Internal.HostingApplicationDiagnostics.LogRequestFinished(HttpContext httpContext, Int64 startTimestamp, Int64 currentTimestamp)
+   at Microsoft.AspNetCore.Hosting.Internal.HostingApplication.DisposeContext(Context context, Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__185`1.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()

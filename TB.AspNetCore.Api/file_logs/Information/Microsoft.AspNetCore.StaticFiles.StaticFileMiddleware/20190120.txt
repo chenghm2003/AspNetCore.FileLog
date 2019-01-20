@@ -1,0 +1,11 @@
+#################### 01/20/2019 22:54:57.2816799 ###############
+Message:    Sending file. Request path: '/Critical/ValuesController/20190120.txt'. Physical path: 'C:\Users\TopBrid\source\repos\AspNetCore.FileLog\TB.AspNetCore.Api\file_logs\Critical\ValuesController\20190120.txt'
+Path:       http://localhost:5000/_logweb/Critical/ValuesController/20190120.txt
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)

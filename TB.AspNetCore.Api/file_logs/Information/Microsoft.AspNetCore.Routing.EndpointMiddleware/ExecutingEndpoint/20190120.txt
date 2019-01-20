@@ -1,0 +1,11 @@
+#################### 01/20/2019 22:52:09.5193248 ###############
+Message:    Executing endpoint 'TB.AspNetCore.Api.Controllers.ValuesController.Get (TB.AspNetCore.Api)'
+Path:       http://localhost:5000/api/values
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+StackTrace: at Microsoft.AspNetCore.Routing.EndpointMiddleware.Log.ExecutingEndpoint(ILogger logger, Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>d__3.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>d__6.MoveNext()
